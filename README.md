@@ -40,9 +40,39 @@ flowchart TD
 | 3    | Data carving               | Autopsy Data Carving Module | Recovered files              |
 | 4    | Export evidence            | Autopsy Export Option       | File copies for analysis     |
 
+Data Extraction and Investigation Tool Usage
+```bash
+lsblk
+```
+
+```bash
+sudo dd if=/dev/sda of=/home/kali/disk.img bs=512
+```
+
+```bash
+mmls ~/disk.img
+```
+```bash
+sudo ls -lh disk.img
+```
+```bash
+strings disk.img | less
+
+```
 
 ## OUTPUT:
 Unallocated Space Analysis and Extracted Data Report
+
+<img width="704" height="580" alt="Screenshot 2025-09-24 151948" src="https://github.com/user-attachments/assets/a7872771-48a9-4910-b4fc-ef95b3ea7e4b" />
+
+<img width="1340" height="985" alt="Screenshot 2025-09-24 152337" src="https://github.com/user-attachments/assets/ceb0e096-119e-4c95-8d02-4f18f0b337be" />
+
+<img width="1289" height="494" alt="Screenshot 2025-09-24 152424" src="https://github.com/user-attachments/assets/ee9493ca-6b22-4c43-92ec-c8b7d6a8a4fe" />
+
+<img width="1917" height="1079" alt="Screenshot 2025-09-24 152448" src="https://github.com/user-attachments/assets/2c844fd6-5806-4c1e-99be-32ae067f17bf" />
+
+<img width="1919" height="1079" alt="Screenshot 2025-09-24 152506" src="https://github.com/user-attachments/assets/33631cad-b76f-48bc-aea5-302c02b0d75b" />
+
 
 ## RESULT:
 The unallocated space was successfully analyzed, data was extracted, and the digital investigation process was followed effectively.
